@@ -1,3 +1,8 @@
+/* CREATE TABLE table_name (
+	row1_name row1_type, row_features,
+	row2_name row2_type, row_features,
+); */
+
 CREATE TABLE regions (
 	region_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL,
 	region_name text NOT NULL
